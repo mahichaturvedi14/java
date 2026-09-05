@@ -1,0 +1,39 @@
+public class show {
+//different parameters
+    void add(int a, int b){
+        System.out.println(a+b);
+    }
+  
+     void add(int a, int b, int c){
+         System.out. println(a+b+c);
+     }
+ //different types
+    void display(int a){
+        System.out.println(a);
+    }
+    void display(String a){
+        System.out.println(a);
+    }
+   //different order
+     void two(int a, String b){
+        System.out.println(a);
+        System.out.println(b);
+        
+ }
+     void two(String a, int b){
+        System.out.println(a);
+        System.out.println(b);
+    
+    }
+
+
+public static void main(String []args){
+    show m=new show();
+    m.display(2);
+    m.display("mahi");
+    m.add(2,5);
+    m.add(3,6,8);
+    m.two(54,"hello");
+    m.two("java",20);
+}
+}
