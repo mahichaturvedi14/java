@@ -1,0 +1,7 @@
+class start{
+    public static void main(String[] args){
+        System.out.println("MY name is Mahi");
+         System.out.println("I am in 2nd year");
+          System.out.println("I am learning java");
+    }
+}
